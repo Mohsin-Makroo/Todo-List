@@ -1,0 +1,286 @@
+@import "tailwindcss";
+/* Body background for the app */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 1.1rem; /* bigger default text */
+}
+
+/* Main container in App.js */
+.bg-\[\#172842\] {
+  background-color: #000 !important;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.max-w-2xl {
+  max-width: 50rem; /* bigger container */
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.shadow-md {
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.15);
+}
+
+.rounded-lg {
+  border-radius: 1rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-2xl {
+  font-size: 2rem; /* bigger heading */
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.gap-y-3 {
+  row-gap: 1rem;
+}
+
+/* TodoForm input */
+.w-full {
+  width: 100%;
+}
+
+.border {
+  border: 1px solid #fff;
+}
+
+.border-black\/10 {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.rounded-l-lg {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.px-3 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-1\.5 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.outline-none {
+  outline: none;
+}
+
+.duration-150 {
+  transition-duration: 0.15s;
+}
+
+.bg-white\/20 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.bg-green-600 {
+  background-color: #fff;
+  color: #000;
+}
+
+.rounded-r-lg {
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.shrink-0 {
+  flex-shrink: 0;
+  font-size: 1.2rem; /* bigger button text */
+}
+
+/* TodoItem container */
+.border-black\/10 {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.shadow-sm {
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.05);
+}
+
+.shadow-white\/50 {
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.text-black {
+  color: #fff;
+}
+
+.bg-\[\#ccbed7\] {
+  background-color: #111; /* incomplete task */
+}
+
+.bg-\[\#c6e9a7\],
+.todo-item.completed {
+  background-color: #fff; /* completed task */
+  color: #000;
+  text-decoration: line-through;
+  border: 1px solid #fff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6); /* subtle glow */
+}
+
+.px-2 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.gap-x-3 {
+  column-gap: 1rem;
+}
+
+/* TodoItem input */
+.w-full {
+  width: 100%;
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.line-through {
+  text-decoration: line-through;
+  color: #000;
+  font-weight: bold;
+}
+
+.todo-item.completed input[type="text"] {
+  color: #000;
+}
+
+.todo-item.completed input[type="checkbox"] {
+  accent-color: #000;
+}
+
+/* Buttons */
+.inline-flex {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.w-8 {
+  width: 2.5rem; /* bigger buttons */
+}
+
+.h-8 {
+  height: 2.5rem;
+}
+
+.text-sm {
+  font-size: 1.1rem;
+}
+
+.bg-gray-50 {
+  background-color: #222;
+  color: #fff;
+}
+
+.bg-gray-100 {
+  background-color: #333;
+  color: #fff;
+}
+
+.hover\:bg-gray-100:hover {
+  background-color: #333;
+}
+
+.disabled\:opacity-50:disabled {
+  opacity: 0.5;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+
+/* Hover effects */
+.inline-flex:hover {
+  transform: scale(1.15);
+  transition: all 0.2s ease-in-out;
+}
+
+/* Inputs focus effect */
+input[type="text"]:focus {
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Checkbox styling */
+input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+  accent-color: #fff;
+  cursor: pointer;
+  transform: scale(1.4);
+  transition: transform 0.2s;
+}
+
+input[type="checkbox"]:hover {
+  transform: scale(1.6);
+}
+
+/* Hover effect on todo item */
+.todo-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 25px rgba(255, 255, 255, 0.2);
+}
